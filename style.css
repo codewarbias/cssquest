@@ -1,0 +1,129 @@
+.robot-head{
+    background-color: rgb(48, 146, 232);
+    margin-top:80px;
+    margin-left: 80px;
+    height: 250px;
+    width: 250px;
+    border-radius: 40%;
+}
+
+.robot-head:hover{
+    background-color: #c8ae1b;
+    margin-top:80px;
+    margin-left: 80px;
+    height: 250px;
+    width: 250px;
+    border-radius: 40%;
+}
+
+.robot-eyes{
+    font-size: 4rem;
+    padding: 13% 26% 26% 26%;
+    color: #fff;
+}
+
+.robot-eyes:hover{
+    font-size: 4rem;
+    padding: 13% 26% 26% 26%;
+    color: black;
+}
+
+
+.robot-mouth{
+    font-size: 6rem;
+    rotate: 90deg;
+    color: #fff;
+}
+
+.robot-mouth:hover{
+    font-size: 6rem;
+    rotate: 90deg;
+    color: red;
+}
+
+.robot-body{
+    background-color: rgb(31, 97, 219);
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+    display: inline-block;
+    z-index: 0;
+}
+
+.robot-body:hover{
+    background-color: #c8ae1b;
+    height: 400px;
+    width: 400px;
+    border-radius: 22px;
+    display: inline-block;
+}
+
+.robot-left-hand{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(31, 97, 219);
+    margin-bottom: 300px;
+}
+
+.robot-left-hand:hover{
+    height: 40px;
+    width: 200px;
+    background-color: #c8ae1b;
+    margin-bottom: 300px;
+}
+
+
+.robot-right-hand{
+    background-color: rgb(31, 97, 219);
+    height: 40px;
+    width: 200px;
+    margin-bottom: 300px;
+}
+
+.robot-right-hand:hover{
+    background-color: #c8ae1b;
+    height: 40px;
+    width: 200px;
+    margin-bottom: 300px;
+}
+
+.robot-legs{
+    font-size: 20rem;
+    margin: 0px;
+    padding: 0px 0px 0px 14%;
+    color:rgb(31, 97, 219);
+}
+
+.robot-legs:hover{
+    font-size: 20rem;
+    margin: 0px;
+    padding: 0px 0px 0px 14%;
+    color:#c8ae1b;
+}
+
+
+@media (max-width:660px) {
+    .robot-head{
+        background-color: rgb(48, 146, 232);
+        margin-top:80px;
+        margin-left: 80px;
+        height: 150px;
+        width: 150px;
+        border-radius: 40%;
+    }
+    .robot-body{
+        background-color: rgb(31, 97, 219);
+        height: 200px;
+        width: 200px;
+        border-radius: 30px;
+        display: inline-block;
+        
+    }
+    .robot-eyes{
+        font-size: 2rem;
+        padding: 13% 26% 26% 27%;
+        color: #fff;
+    }
+    
+    
+}
